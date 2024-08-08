@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-box">
+        <!-- sisi kiri -->
+        <div class="sisi-kiri">
+            <h1>BMI Calculator</h1>
+            <!-- <p class="kata-pengantar">
+                BMI Calculator dapat menghitung nilai ideal tubuh anda
+            </p> -->
+            <img src="bmi.png" alt="bmi">
+        </div>
+
+        <!-- sisi kanan -->
+        <div class="sisi-kanan">
+            <!-- input tb -->
+            <p class="input">Masukkan Tinggi Badan (cm)</p>
+            <input type="number" id="tb">
+            
+            <!-- input bb -->
+            <p class="input">Masukkan Berat Badan (kg)</p>
+            <input type="number" id="bb">
+
+            <!-- hasil perhitungan -->
+            <p id="hasil">Hasil BMI : </p>
+
+            <!-- keterangan -->
+            <p id="keterangan">Keterangan : </p>
+
+            <!-- button -->
+             <button onclick="calculateBMI()" class="button" id="btn">Calculate</button>
+        </div>
+    </div>
+
+    <script src="tugas3.js"></script>
+</body>
+</html>
